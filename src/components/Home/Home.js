@@ -30,7 +30,7 @@ function Home() {
                 <strong className="main-name"> JENISH MARIYAJERALD</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="home-typewriter">
                 <Type />
               </div>
             </Col>

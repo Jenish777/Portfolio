@@ -275,6 +275,11 @@ button:focus {
   text-align: left;
 }
 
+.home-typewriter {
+  padding: 50px;
+  text-align: left;
+}
+
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
@@ -300,10 +305,14 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-typewriter {
+    height: 7em;
+    padding: 16px 25px;
+  }
+
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
   }
   .Typewriter__cursor {
     display: none !important;
